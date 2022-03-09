@@ -103,7 +103,7 @@
                     <Label BorderThickness="5">
                         <Image Width="50"  Height="50" Name="copyimage"></Image>
                     </Label>
-                    <Label Name="basliq"></Label>
+                    <Label Name="basliq"  FontSize="50"  FontWeight="Bold"></Label>
 
 
                    
