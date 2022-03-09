@@ -143,7 +143,7 @@
         
 
                     <WrapPanel Orientation="Horizontal" Name="emojis" Background="White" Visibility="Hidden" Margin="0,0,0,0"  Height="300" Width="670" >
-                        <Button Name="exitemoji" Click="exitemoji_Click" Width="50" Height="50"></Button>
+                        <Button Name="exitemoji" Click="exitemoji_Click" Content="X" FontSize="16" Width="50" Height="50"></Button>
                         <ItemsControl  Name="baza" ItemsSource="{Binding emojiss}">
                          
                             <ItemsControl.ItemTemplate >

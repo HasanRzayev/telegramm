@@ -153,8 +153,8 @@ namespace Telegram
             Color c = Colors.Cyan;
             Bot AI = new Bot();
 
+ 
             AI.loadSettings();
-
             AI.loadAIMLFromFiles();
 
             AI.isAcceptingUserInput = false;
